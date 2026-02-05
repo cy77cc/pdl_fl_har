@@ -1,0 +1,20 @@
+# general
+train_batch_size: 64
+test_batch_size: 16
+clients: 30
+
+shape: !!python/tuple [0, 9, 1, 128]
+num_classes: 6
+in_channels: 9
+# dim: 1728
+dim: 7808
+
+server_epochs: 40
+client_epochs: 30
+test_epochs: 1
+note: ""
+rate: 0.01
+frac: 0.4
+
+malicious_client: 23
+attack_client: 14
